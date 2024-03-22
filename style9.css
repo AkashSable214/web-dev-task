@@ -1,0 +1,149 @@
+#border{
+     border: 3px solid black;
+     
+}
+h1{
+    font-size: 72px;
+    text-align: center;
+    padding-top: 0px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(136, 21, 136);
+}
+.padding{
+    padding-top: 80px;
+}
+div h1{
+    font-size: 120px;
+}
+
+/* heading style */
+.header {
+    font-family: Copperplate Gothic Light;
+    padding: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    color: white;
+    font-size: 65px;
+    justify-content: center;
+}
+.header h1{
+    font-size: 150px;
+    text-align: center;
+    padding: 12px 20px;
+    background-color: rgb(136, 21, 136);
+    
+}
+/* paragraph style */
+.size{
+    font-size: 98px;
+    text-align: center;
+}
+#background-color{
+    background-color: rgb(136, 21, 136);
+
+}
+
+/*  */
+#style{
+    /* color: white; */
+    font-size: 48px;
+    background-color: rgb(136, 21, 136);
+    color: white;
+    
+}
+/* right side book-ribbon style */
+.bookmark-ribbon{
+    page-orientation: right;
+    position: relative;
+    top: 0;
+    left: 4975px;
+    width: 0px;
+    height: 0px;
+    border-right: 200px solid rgb(136, 21, 136);
+    border-left: 100px solid rgb(136, 21, 136);
+    border-bottom: 100px solid rgb(136, 21, 136);
+    border-top: 100px solid rgb(136, 21, 136);
+    border-left: 75px solid transparent;
+    
+}
+/* left side book-ribbon style */
+ .bookmark1-ribbon{
+    page-orientation: left;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid rgb(136, 21, 136);
+    border-left: 150px solid rgb(136, 21, 136);
+    border-bottom: 100px solid rgb(136, 21, 136);
+    border-top: 100px solid rgb(136, 21, 136);
+    border-right: 75px solid transparent;
+    
+} 
+/* book-ribbon text style */
+.bookmark-container{
+    display: flex;
+    align-items: center;
+    font-size: 90px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: none;
+    margin: 10px;
+    
+}
+label{
+    margin-left: 5px;
+    
+}
+.bookmark-container h1{
+    letter-spacing: 2px;
+    background-color: rgb(136, 21, 136);
+    color: white;
+    padding: 8px;
+    font-size: 80px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+/* image circle style */
+#container{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    min-height: 100;
+    background-color: white;
+    color: black;
+    padding: 4px 8px;
+   
+}
+#container div{
+    height: 250px;
+    width: 330px;
+    margin: 200px;
+    text-align: center;
+    padding-bottom: 280px;
+    
+    
+}
+/* image background circle */
+#container img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    color: rgb(159, 167, 173);
+    
+}
+img{
+    font-size: 50px;   
+}
+/* container label style */
+#container label{
+    color: rgb(136, 21, 136);
+    font-size: 40px;
+}
